@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:background="#f2f2f2"
+    android:layout_height="wrap_content">
+
+    <ProgressBar
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/pg_progessBar"
+        android:layout_marginLeft="30dp"
+        android:layout_toLeftOf="@+id/ll_show"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@drawable/progress_bar"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/ll_show"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#333333"
+            android:id="@+id/tv_top_time"
+            android:text="上次请求时间：15:35:00"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#333333"
+            android:id="@+id/tv_bottom_time"
+            android:text="本次请求时间：15:40:25"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
