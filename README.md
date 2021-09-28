@@ -1,5 +1,5 @@
 # FreelyAdapter
-相关功能
+#相关功能
 1.自定义添加HeaderView
 2.自定义添加FooderView
 3.自定义添加空View
